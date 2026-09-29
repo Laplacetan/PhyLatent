@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "file": "architecture.png",
+      "description": "PhyLatent architecture (Figure 3)",
+      "sha256": "6967b019afdacee17d137644f923df98ab86f6f299d05ff490a2c6b31308fbab"
+    },
+    {
+      "file": "architecture.svg",
+      "description": "PhyLatent architecture (vector)",
+      "sha256": "9b1aee08cb04c373b8ba793fb647de1b1ab1d32260b1cbe1d3140f06fdef35af"
+    },
+    {
+      "file": "collapse_diagnostics.png",
+      "description": "Three forms of collapse in LeWM on Cube",
+      "sha256": "4f6f561b1816668a7bd1d1578daf6f0dca6be13a73f7b04891e3c8874ef600a3"
+    },
+    {
+      "file": "collapse_examples.png",
+      "description": "Observation examples of collapse in LeWM on Cube",
+      "sha256": "af2cae4820d81efb6d8e13fb8a938fe57d90dde3856e9a0d6549527525598f9f"
+    }
+  ]
+}
