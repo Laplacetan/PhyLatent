@@ -2,9 +2,9 @@
 
 Project website for **PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models**.
 
-[Project website](https://laplacetan.github.io/PhyLatent/) · [Read the paper](https://arxiv.org/abs/2608.05720) · [Download BibTeX](phylatent.bib) · [Download the source snapshot](PhyLatent-source.zip)
+[Project website](https://laplacetan.github.io/PhyLatent/) · [Read the paper](https://arxiv.org/abs/2608.05720) · [Code](https://github.com/Cherishings/PhyLatent) · [Models & checkpoints](https://github.com/Cherishings/PhyLatent#pretrained-checkpoints-and-planning) · [Download BibTeX](phylatent.bib)
 
-This repository contains the static paper website. It uses HTML, CSS, and JavaScript, with all figures, video demonstrations, and downloadable resources stored locally. No build step, package installation, or backend is required.
+This repository contains the static paper website. It uses HTML, CSS, and JavaScript, with figures and video demonstrations stored locally and links to the paper and official research repository. No build step, package installation, or backend is required.
 
 ## Website content
 
@@ -18,15 +18,13 @@ Tables are reformatted for readability while preserving the reported values and 
 
 ## Source code and model availability
 
-[`PhyLatent-source.zip`](PhyLatent-source.zip) contains the supplied research source snapshot, including training configurations, planning and evaluation code, collapse diagnostics, documentation, and license notices. It is separate from the website source in this repository.
+The website links directly to the official research repository, [Cherishings/PhyLatent](https://github.com/Cherishings/PhyLatent), for training configurations, planning and evaluation code, collapse diagnostics, documentation, and license notices.
 
-**Full pretrained model weights are not included.** The four `weights.pt` files in that snapshot are Git LFS pointers, not checkpoint payloads. Downloading the archive alone does not provide runnable pretrained checkpoints. The website's model availability section reflects this limitation.
-
-The research source archive includes its original `LICENSE`, `THIRD_PARTY_NOTICES.md`, and `licenses/` directory. Consult those files for the applicable source code and third-party terms.
+The Models buttons link to the repository's [pretrained checkpoints and planning](https://github.com/Cherishings/PhyLatent#pretrained-checkpoints-and-planning) section. Refer to that repository for checkpoint availability and usage instructions. The website does not host a separate source archive or model weights. Visitors can access the repository once its owner makes it public.
 
 ## Deploy with GitHub Pages
 
-1. Keep `index.html`, `.nojekyll`, and all accompanying image, video, and archive files at the repository root.
+1. Keep `index.html`, `.nojekyll`, and all accompanying image and video files at the repository root.
 2. Push the website files to the `main` branch.
 3. In **Settings → Pages**, select **Deploy from a branch**.
 4. Select **main** and **/(root)**, then save.
@@ -47,7 +45,6 @@ Serve this directory with any static HTTP server and open its local address in a
 | `app.js` | Video behavior, section navigation, and citation copying |
 | `*.png`, `*.svg`, `*.jpg` | Figures and video preview images |
 | `*.mp4` | Task demonstrations and collapse diagnostics |
-| `PhyLatent-source.zip` | Downloadable research source snapshot |
 | `phylatent.bib` | Downloadable paper citation |
 
-When updating experimental results, preserve the mapping between each value and its method, task, metric, and evaluation condition. Keep captions with their associated tables and figures. If public source or checkpoint links become available, update the resource buttons and model availability section together.
+When updating experimental results, preserve the mapping between each value and its method, task, metric, and evaluation condition. Keep captions with their associated tables and figures. Maintain the paper, source, and model resource links together when their destinations change.
